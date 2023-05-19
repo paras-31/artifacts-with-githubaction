@@ -33,6 +33,8 @@ jobs:
           name: index.html
           
       - run: ls
+      
+      - run: cat index.html
           
 
       
