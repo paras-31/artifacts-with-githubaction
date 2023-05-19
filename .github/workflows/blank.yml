@@ -23,6 +23,7 @@ jobs:
           path: index.html
 
   build2:
+    needs: build
     runs-on: ubuntu-latest
     steps:
       - run: ls
